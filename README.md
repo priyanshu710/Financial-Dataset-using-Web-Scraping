@@ -2,12 +2,14 @@
 
 The files present in this repository can be used to generate a dataset containing financial information about Indian companies. The data is scraped from the MoneyControl website and then processed to achieve the desired result.
 
-There are 5 different ipynb files needed to achieve the final dataset. You have to run the files in the following order:
-    get_links_for_companies.ipynb
-    Financial_Feature_Extractor.ipynb
-    merging_data.ipynb 
-    Final_dataset.ipynb
-    Final_dataset_union.ipynb
+There are 7 different ipynb files needed to achieve the final dataset. You have to run the files in the following order:
+    get_links_for_companies.ipynb | 
+    Financial_Feature_Extractor.ipynb | 
+    merging_data.ipynb | 
+    Final_dataset.ipynb | 
+    Final_dataset_union.ipynb | 
+    adjust_dates.ipynb | 
+    include_non_financial_features.ipynb
 
 Now, we shall discuss what each of these files helps us to do.
 
